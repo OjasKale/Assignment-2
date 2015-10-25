@@ -216,7 +216,7 @@ func getSession() *mgo.Session {
 
 
 
-		s, err := mgo.Dial("mongodb://ojas:123@ds045054.mongolab.com:45054/ojas")
+	s, err := mgo.Dial("mongodb://localhost:27017")
 
 
     if err != nil {
